@@ -1,0 +1,234 @@
+body {
+
+    margin:0;
+    min-height:100vh;
+
+    background:
+        radial-gradient(circle at top,
+        #24344d,
+        #05070d 60%);
+
+    color:#d8f7ff;
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+}
+
+
+.background {
+
+    position:fixed;
+    inset:0;
+
+    background:
+        linear-gradient(
+            120deg,
+            transparent,
+            rgba(100,220,255,0.08),
+            transparent
+        );
+
+    pointer-events:none;
+}
+
+
+header {
+
+    text-align:center;
+    padding:40px 20px 20px;
+
+}
+
+
+.ghost {
+
+    font-size:55px;
+
+}
+
+
+h1 {
+
+    margin:10px;
+
+    font-size:38px;
+
+    letter-spacing:1px;
+
+    text-shadow:
+        0 0 10px #66eaff;
+
+}
+
+
+.subtitle {
+
+    color:#9db9c8;
+
+}
+
+
+
+.status-panel {
+
+    width:80%;
+    margin:20px auto;
+
+    display:flex;
+    justify-content:center;
+    gap:60px;
+
+    background:
+        rgba(255,255,255,0.05);
+
+    border:
+
+        1px solid rgba(120,220,255,0.3);
+
+    padding:20px;
+
+    border-radius:12px;
+
+    box-shadow:
+
+        0 0 20px rgba(0,200,255,0.15);
+
+}
+
+
+.status-panel div {
+
+    display:flex;
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+.label {
+
+    color:#91a9b8;
+
+    font-size:14px;
+
+}
+
+
+
+.content {
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+
+input {
+
+    width:100%;
+
+    box-sizing:border-box;
+
+    padding:12px;
+
+    margin-bottom:20px;
+
+
+    background:#101722;
+
+    border:
+
+        1px solid #4ccde8;
+
+    color:white;
+
+    border-radius:8px;
+
+}
+
+
+
+table {
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:
+
+        rgba(0,0,0,0.35);
+
+}
+
+
+th {
+
+    background:
+
+        rgba(70,180,220,0.15);
+
+}
+
+
+
+th, td {
+
+    padding:12px;
+
+    border-bottom:
+
+        1px solid rgba(255,255,255,0.1);
+
+    text-align:left;
+
+}
+
+
+
+tbody tr:hover {
+
+    background:
+
+        rgba(80,220,255,0.12);
+
+}
+
+
+
+.rank1 {
+
+    color:#ffe98a;
+
+}
+
+
+.rank2 {
+
+    color:#d6e0e8;
+
+}
+
+
+.rank3 {
+
+    color:#e5a77b;
+
+}
+
+
+footer {
+
+    text-align:center;
+
+    padding:30px;
+
+    color:#789;
+
+}
