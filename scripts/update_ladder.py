@@ -74,8 +74,7 @@ def update_characters():
 
 
 
-    text =
-    soup.get_text(
+    text = soup.get_text(
         " ",
         strip=True
     )
